@@ -1,0 +1,150 @@
+.userpage-mainbackground-img{
+    height: 100vh;
+    width: 100%;
+}
+
+.user-page-main-backgroundimage-wrap{
+    position: relative; 
+    z-index: 0;
+    margin-bottom: -8rem;
+}
+
+.main-background-content{
+    position: absolute;
+    top: 30%;
+    width: calc(100% - 5%);
+    padding-left: 5%;
+    height: calc(100vh - 30%);
+    background-color: rgb(230, 139, 19);
+    background: linear-gradient(to bottom, transparent, black);
+}
+
+.main-background-title{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.main-background-description{
+    width: 40%;
+    font-size: 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.main-background-btn-wrap{
+    margin-top: 2rem;
+}
+
+.main-background-btn{
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-background-btn:hover{
+    background-color: grey;
+}
+
+.main-background-moreinfo-btn{
+    background-color: rgba(128, 128, 128, 0.632);
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1100px){
+    .userpage-mainbackground-img{
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .userpage-mainbackground-img{
+        height: 85vh;
+    }
+
+    .main-background-description{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .userpage-mainbackground-img{
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .userpage-mainbackground-img{
+        height: 70vh;
+    }
+
+    .main-background-description{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .main-background-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-background-title{
+        text-align: center;
+    }
+
+    .main-background-description{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .userpage-mainbackground-img{
+        height: 65vh;
+    }
+
+    .main-background-content{
+        top: 20%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .userpage-mainbackground-img{
+        height: 55vh;
+    }
+
+    .main-background-content{
+        top: 15%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .main-background-description{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .userpage-mainbackground-img{
+        height: 50vh;
+    }
+
+    .main-background-content{
+        top: 10%;
+    }
+}

@@ -1,0 +1,254 @@
+
+.show-genre-wrap{
+    width: calc(100%);
+    overflow-x: hidden;
+    height: 25rem;
+    margin-top: -9rem;
+}
+
+.genre-heading{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-left: 9.5%;
+}
+
+.show-list{
+    padding-left: 9.5%;
+    padding-bottom: 4rem; 
+}
+
+.show-banner-wrap{
+    margin-right: 0.4rem;
+    background-color: rgba(20,20,20,255);
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.show-banner-wrap:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.914);
+    z-index: 1;
+}
+
+.show-banner-wrap:hover .show-card-info{
+    display: flex;
+}
+
+
+.show-banner-img{
+    height: 8rem;
+    border-radius: 5px;
+}
+
+.show-poster-wrap{
+    margin-right: 0.4rem;
+    height: 21rem;
+    transition: transform 0.3s;
+    position: relative;
+}
+
+.show-poster-wrap:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.882);
+    z-index: 1;
+}
+
+.show-poster-wrap:hover .show-card-info{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent, black);
+    width: 97%;
+    border-radius: 5px;
+}
+
+.show-poster-wrap:hover .show-card-info-btn{
+    background-color: rgba(20,20,20,0.6);
+}
+
+.only-on-netflix-height{
+    height: 38rem;
+}
+
+.show-poster-img{
+    height: 21rem;
+    border-radius: 5px;
+}
+
+.show-card-info{
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+    display: none;
+}
+
+.show-card-info-btn-wrap{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.show-card-info-btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid grey;
+    margin-right: 0.2rem;
+    cursor: pointer;
+}
+
+.show-card-info-btn:hover{
+    background-color: rgb(87, 85, 85) !important;
+}
+
+.show-card-show-name{
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.show-card-show-rating{
+    color: rgb(30, 218, 30);
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.show-card-show-genre{
+    margin-bottom: 0.5rem;
+}
+
+.show-card-detailed-info-wrap{
+    background-color: rgba(0, 0, 0, 0.542);
+    height: 100vh;
+    width: 105%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    display: none;
+}
+
+.show-card-detailed-info{
+    background-color: rgba(20,20,20,255);
+    height: 80%;
+    width: 60%;
+    margin-left: 5%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.show-card-detailed-info-img-wrap{
+    height: 20rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.show-card-detailed-info-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.show-card-detailed-info-contents{
+    position: absolute;
+    bottom: 0;
+    padding-left: 2rem;
+    background: linear-gradient(to bottom, transparent, black);
+    width: calc(100% - 2rem);
+    border-radius: 20px;
+}
+
+.show-card-detailed-info-show-name{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.show-card-detailed-info-btn-wrap{
+    margin-bottom: 1rem;
+}
+
+.show-card-detailed-info-rating{
+    color: rgb(30, 218, 30);
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.show-card-detailed-info-show-description{
+    margin-bottom: 3rem;
+}
+
+.show-card-detailed-info-show-overview{
+    font-size: 1rem;
+    width: 65%;
+}
+
+.show-card-detailed-info-show-genre{
+    font-size: 1rem;
+    width: 25%;
+}
+
+.show-card-detailed-info-btn-background{
+    background-color: rgba(20,20,20,255);
+    border: 2px solid grey;
+}
+
+.show-card-detailed-info-exit-btn-wrap{
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    color: white;
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+    background-color: rgba(200, 195, 195, 0.607);
+    border-radius: 50%;
+}
+
+
+
+@media screen and (max-width: 1300px){
+    .show-card-detailed-info{
+        height: 70%;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .show-card-detailed-info{
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .show-card-detailed-info{
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .show-card-detailed-info{
+        height: 40%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .show-card-detailed-info{
+        height: 40%;
+        width: 70%;
+    }
+
+    .show-card-detailed-info-show-overview{
+        width: 50%;
+    }
+
+    .show-card-detailed-info-show-genre{
+        width: 40%;
+    }
+}

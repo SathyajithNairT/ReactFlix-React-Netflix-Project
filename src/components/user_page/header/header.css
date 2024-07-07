@@ -1,0 +1,82 @@
+.header-main-wrap{
+    height: 4rem;
+    background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.875));
+}
+
+.header-left-wrap{
+    width: 50%;
+    height: 100%;
+}
+
+.header-right-wrap{
+    width: 20%;
+    height: 100%;
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+
+.header-icon{
+    width: 20%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.header-icon:hover{
+    color: rgb(174, 170, 170);
+}
+
+.header-profile-icon{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.header-logo{
+    background-image: url(headerLogo/logo.webp);
+    height: 50%;
+    width: 7rem;
+    margin-left: 4rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.header-navigation{
+    font-size: 1.1rem;
+    margin-left: 1rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.header-navigation:hover{
+    color: rgb(174, 170, 170);
+}
+
+.header-navigation-collapse{
+    display: none;
+    margin-left: 1rem;
+}
+
+
+@media screen and (max-width: 1220px){
+    .header-left-wrap{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1025px){
+    .header-navigation-wrap{
+        display: none;
+    }
+
+    .header-navigation-collapse{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .header-right-wrap{
+        width: 40%;
+        
+    }
+}
