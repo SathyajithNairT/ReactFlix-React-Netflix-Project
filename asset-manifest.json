@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ReactFlix-React-Netflix-Project/static/css/main.f756b6db.css",
+    "main.css": "/ReactFlix-React-Netflix-Project/static/css/main.1f4aa031.css",
     "main.js": "/ReactFlix-React-Netflix-Project/static/js/main.09693f97.js",
     "static/js/453.3cb69789.chunk.js": "/ReactFlix-React-Netflix-Project/static/js/453.3cb69789.chunk.js",
     "static/media/loginBg.webp": "/ReactFlix-React-Netflix-Project/static/media/loginBg.62ab0b1ec4670dc1aa9f.webp",
     "static/media/logo.webp": "/ReactFlix-React-Netflix-Project/static/media/logo.cb08b7e9dd7d14f1f6d7.webp",
     "static/media/logo.svg": "/ReactFlix-React-Netflix-Project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ReactFlix-React-Netflix-Project/index.html",
-    "main.f756b6db.css.map": "/ReactFlix-React-Netflix-Project/static/css/main.f756b6db.css.map",
+    "main.1f4aa031.css.map": "/ReactFlix-React-Netflix-Project/static/css/main.1f4aa031.css.map",
     "main.09693f97.js.map": "/ReactFlix-React-Netflix-Project/static/js/main.09693f97.js.map",
     "453.3cb69789.chunk.js.map": "/ReactFlix-React-Netflix-Project/static/js/453.3cb69789.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f756b6db.css",
+    "static/css/main.1f4aa031.css",
     "static/js/main.09693f97.js"
   ]
 }
